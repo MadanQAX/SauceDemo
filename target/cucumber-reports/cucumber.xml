@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="23.358068">
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process on Overview Page" time="7.542853">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on home page of swag labs......................................passed
+Then user adds product from home page.......................................passed
+Then user checkout product from cart........................................passed
+Then user continue checkout with buyer data.................................passed
+Then user finish checkout process...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process on Overview Page 2" time="6.304638">
+<system-out><![CDATA[Given user enters "problem_user" and "secret_sauce" and clicks on login button.passed
+When user is on home page of swag labs......................................passed
+Then user adds product from home page.......................................passed
+Then user checkout product from cart........................................passed
+Then user continue checkout with buyer data.................................passed
+Then user finish checkout process...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process on Overview Page 3" time="9.510577">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on home page of swag labs......................................passed
+Then user adds product from home page.......................................passed
+Then user checkout product from cart........................................passed
+Then user continue checkout with buyer data.................................passed
+Then user finish checkout process...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		,monochrome = true // display the console output in a proper readable format
 		,strict = false
 		,dryRun = false
-		,tags = {"@checkoutwoproduct"}
+		//,tags = {"@checkoutwoproduct"}
 		//ORed : tags ={"@smoke , @negativecases"} -- executes all tests tagged as @smoke OR @negativecases
 		//ANDed : tags ={"@smoke" , "@negativecases"} -- executes all tests tagged as @smoke AND @negativecases
 		// use 	~ for ignoring the test cases of particular tag like tags = {"~@smoke", "@negativecases"}

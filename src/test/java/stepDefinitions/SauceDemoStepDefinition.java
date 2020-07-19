@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.DataTable;
@@ -18,8 +20,16 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class SauceDemoStepDefinition {
+import dataSet.*;
 
+public class SauceDemoStepDefinition extends variableEnvironments{
+
+	variableEnvironments data = new variableEnvironments();
+	public SauceDemoStepDefinition()
+	{
+		super();
+		
+	}
 	WebDriver driver;
 	
 	@Before(order=0)
@@ -31,8 +41,28 @@ public class SauceDemoStepDefinition {
 	@Before(order=1)
 	public void setUp()
 	{
-		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+		String browser = System.getProperty("BROWSER");
+		if(browser==null)
+		{
+			browser = System.getenv("BROWSER");
+			if(browser==null)
+			{
+				browser = "chrome";
+			}
+		}
+		switch (browser) {
+		case "chrome":
+			driver = new ChromeDriver();
+			break;
+		case "firefox":
+			driver = new FirefoxDriver();
+			break;
+		default:
+			driver = new ChromeDriver();
+			break;
+		}
+		System.out.println("Opening Browser..................." + browser);
+
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -64,8 +94,8 @@ public class SauceDemoStepDefinition {
 		driver.findElement(By.id("login-button")).click();
 	}
 
-	@Then("^user is on home page$")
-	public void user_is_on_home_page()
+	@Then("^user is on home page and check for prodcuts$")
+	public void user_is_on_home_page_and_check_for_products()
 	{
 		String title = driver.getTitle();
 		System.out.println("\nHome Page Title: " + title);
@@ -82,53 +112,39 @@ public class SauceDemoStepDefinition {
 	}
 	
 	
-	@When("^user is on home page of swag labs$")
-	public void user_is_on_home_page_of_swag_labs()
+	@When("^user is on swag labs home page$")
+	public void user_is_on_swag_labs_home_page_()
 	{
 		String title = driver.getTitle();
 		System.out.println("\nHome Page Title: " + title);
 		Assert.assertEquals("Swag Labs", title);
 		driver.findElement(By.xpath("//div[contains(text(),\"Products\")]"));
 	}
+	
 
 	@Then("^verify products on home page$")
 	public void verify_products_on_home_page()
 	{
-		String backPack = driver.findElement(By.xpath("//a[@id=\"item_4_title_link\"]/div")).getText();
-		Assert.assertEquals("Sauce Labs Backpack", backPack);
-		System.out.println("product name 1 : " + backPack);
-		
-		String bikeLight = driver.findElement(By.xpath("//a[@id=\"item_0_title_link\"]/div")).getText();
-		Assert.assertEquals("Sauce Labs Bike Light", bikeLight);
-		System.out.println("product name 2 : " + bikeLight);
-		
-		String tShirt = driver.findElement(By.xpath("//a[@id=\"item_1_title_link\"]/div")).getText();
-		Assert.assertEquals("Sauce Labs Bolt T-Shirt", tShirt);
-		System.out.println("product name 3 : " + tShirt);
-		
-		String jacket = driver.findElement(By.xpath("//a[@id=\"item_5_title_link\"]/div")).getText();
-		Assert.assertEquals("Sauce Labs Fleece Jacket", jacket);
-		System.out.println("product name 4 : " + jacket);
-		
-		String onesie = driver.findElement(By.xpath("//a[@id=\"item_2_title_link\"]/div")).getText();
-		Assert.assertEquals("Sauce Labs Onesie", onesie);
-		System.out.println("product name 5 : " + onesie);
-		
-		String redTshirt = driver.findElement(By.xpath("//a[@id=\"item_3_title_link\"]/div")).getText();
-		Assert.assertEquals("Test.allTheThings() T-Shirt (Red)", redTshirt);
-		System.out.println("product name 6 : " + redTshirt);
-		
+		List<WebElement> elements = driver.findElements(By.xpath("//a[contains(@id,'item_')]/div[@class='inventory_item_name']"));
+		int len = elements.size();
+		System.out.println(len);
+		String[] names = new String[len+1];
+		for (int i = 1; i <= len; i++){
+			String prodName = "(//a[contains(@id, 'item_')]/div[@class='inventory_item_name'])["+i+"]";
+			if(driver.findElement(By.xpath(prodName)).isDisplayed()) {
+				names[i] = driver.findElement(By.xpath(prodName)).getText();
+				Assert.assertEquals(data.productslist[i-1], names[i]);
+				System.out.println("Expected: " + data.productslist[i-1] + "  Actual: " + names[i]);
+			}else {
+				break;
+			}
+		}
 		WebElement cart = driver.findElement(By.id("shopping_cart_container"));
 		cart.isDisplayed();
-		
 		WebElement hamburger = driver.findElement(By.xpath("//div[@class=\"bm-burger-button\"]"));
 		hamburger.isDisplayed();
-		
 		WebElement sortDropDown = driver.findElement(By.xpath("//select[@class=\"product_sort_container\"]"));
 		sortDropDown.isDisplayed();
-				
-		//WebElement productName = driver.findElement(By.xpath("//*[@class=\\\"inventory_item_name\\\" and contains(text(),'"+name+"')]"));
-		//productName.click();
 	}
 	
 	
@@ -136,14 +152,12 @@ public class SauceDemoStepDefinition {
 	public void verify_user_can_sort_products(DataTable sortoptions) throws InterruptedException
 	{
 		for(Map<String, String> data : sortoptions.asMaps(String.class, String.class)) {
-		Thread.sleep(5000);
 		Select select = new Select(driver.findElement(By.xpath("//*[@class=\"product_sort_container\"]")));
 		select.selectByValue(data.get("value"));
-		String ztoaProduct = driver.findElement(By.xpath("//div[@class=\"inventory_item_name\"]")).getText();
-		System.out.println(data.get("message") + ztoaProduct);
-		Assert.assertEquals(data.get("firstproduct"), ztoaProduct);
-		}
-			
+		String sortProduct = driver.findElement(By.xpath("//div[@class=\"inventory_item_name\"]")).getText();
+		System.out.println(data.get("message") + sortProduct);
+		Assert.assertEquals(data.get("firstproduct"), sortProduct);
+		}	
 	}
 	
 	@Then("^verify hamburger options$")
@@ -171,40 +185,29 @@ public class SauceDemoStepDefinition {
 	@Then("^user adds product from home page$")
 	public void verify_user_adds_product_from_home_page(DataTable productname) 
 	{
+		int i = 1;
 		for (Map<String, String> data : productname.asMaps(String.class, String.class)){
 		WebElement addToCartBtn = driver.findElement(By.xpath("//*[@class='inventory_item_name' and contains(text(),'"+data.get("productname")+"')]/../../../div[3]/button"));		
 		addToCartBtn.click();
+		Assert.assertEquals(i, Integer.parseInt(driver.findElement(By.xpath("//span[@class=\"fa-layers-counter shopping_cart_badge\"]")).getText()));
+		i = i+1;
+		}
 		driver.findElement(By.id("shopping_cart_container")).click();
-		driver.findElement(By.xpath("//*[@class=\"btn_secondary\"]")).click();}
-//		List<WebElement> elements = driver.findElements(By.xpath("//*[@class='inventory_item_name']"));
-//		
-//		int len = elements.size();
-//		System.out.println("lenth" + len);
-//		String[] names = new String[len + 1];
-//		System.out.println("names" + names);
-//		for (int i = 0; i < len; i++){
-//			WebElement prodName = driver.findElement(By.xpath("(//a[contains(@id, 'item_')]/div[@class='inventory_item_name'])["+i+"]"));
-//			if(prodName.isDisplayed()) {
-//				names[i] = driver.findElement(By.xpath("(//a[contains(@id, 'item_')]/div[@class='inventory_item_name'])[\"+i+\"]")).getText();
-//			}else {
-//				break;
-//			}
-//		}
-//		
-//		
-//		}
-//		String notification = driver.findElement(By.xpath("//span[@class='fa-layers-counter shopping_cart_badge']")).getText();
-//		System.out.println(notification);
-//		int notificationvalue = Integer.parseInt(notification);
-//		System.out.println("notification value " + notificationvalue);
-//		for (int i = 0; i <= notificationvalue; i++) {
-//			int j = i++;
-//			System.out.println("value of j " + j);
-//			String product = driver.findElement(By.xpath("(//div[@class='inventory_item_name'])["+j+"]")).getText();
-//			System.out.println(product);
+		List<WebElement> elements = driver.findElements(By.xpath("//a[contains(@id,'item_')]/div[@class='inventory_item_name']"));
+		int len = elements.size();
+		System.out.println(len);
+		String[] names = new String[len+1];
 		
-//		driver.findElement(By.id("shopping_cart_container")).click();
-//		driver.findElement(By.xpath("//*[@class=\"btn_secondary\"]")).click();
+			for (int j = 1; j <= len; j++){
+			String prodName = "(//a[contains(@id, 'item_')]/div[@class='inventory_item_name'])["+j+"]";
+			if(driver.findElement(By.xpath(prodName)).isDisplayed()) {
+				names[j] = driver.findElement(By.xpath(prodName)).getText();
+				Assert.assertEquals(data.productslist[j-1], names[j]);
+				System.out.println("Expected: " + data.productslist[j-1] + "  Actual: " + names[j]);
+			}else {
+				break;
+			}
+		}
 	}
 	
 	@Then("^verify user adds product from product details page$")
@@ -223,7 +226,7 @@ public class SauceDemoStepDefinition {
 	public void user_continue_shopping_from_cart()
 	{
 		driver.findElement(By.id("shopping_cart_container")).click();
-		driver.findElement(By.xpath("//*[@class=\"btn_secondary\"]")).click();
+		driver.findElement(By.xpath("//*[@class='btn_secondary']")).click();
 	}
 	
 	

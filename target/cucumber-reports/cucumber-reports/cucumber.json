@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 436700,
+              "duration": 275000,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 4438297900,
+              "duration": 2955578500,
               "status": "passed"
             },
             "match": {
@@ -23,14 +23,14 @@
             }
           }
         ],
-        "line": 241,
-        "name": "Finish Checkout process on Overview Page",
+        "line": 11,
+        "name": "Swag Labs Login with Valid User",
         "description": "",
-        "id": "sauce-demo-application-testing-feature;finish-checkout-process-on-overview-page;;2",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-valid-user;;2",
         "after": [
           {
             "result": {
-              "duration": 603763200,
+              "duration": 1107816400,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 62500,
+              "duration": 54000,
               "status": "passed"
             },
             "match": {
@@ -52,10 +52,10 @@
         "steps": [
           {
             "result": {
-              "duration": 743254600,
+              "duration": 794612300,
               "status": "passed"
             },
-            "line": 231,
+            "line": 6,
             "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
             "match": {
               "arguments": [
@@ -78,81 +78,29 @@
           },
           {
             "result": {
-              "duration": 592291400,
+              "duration": 58175600,
               "status": "passed"
             },
-            "line": 232,
-            "name": "user is on home page of swag labs",
+            "line": 7,
+            "name": "user is on home page and check for prodcuts",
             "match": {
-              "location": "SauceDemoStepDefinition.user_is_on_home_page_of_swag_labs()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1490000,
-              "status": "passed"
-            },
-            "line": 233,
-            "name": "user adds product from home page",
-            "match": {
-              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "productname"
-                ],
-                "line": 234
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 476815400,
-              "status": "passed"
-            },
-            "line": 235,
-            "name": "user checkout product from cart",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 471561300,
-              "status": "passed"
-            },
-            "line": 236,
-            "name": "user continue checkout with buyer data",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 214879500,
-              "status": "passed"
-            },
-            "line": 237,
-            "name": "user finish checkout process",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
+              "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 228,
-            "name": "@e2e"
+            "line": 3,
+            "name": "@validcredentials"
           },
           {
-            "line": 228,
-            "name": "@checkoutwoproduct"
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@e2e"
           }
         ]
       },
@@ -160,7 +108,7 @@
         "before": [
           {
             "result": {
-              "duration": 159800,
+              "duration": 51600,
               "status": "passed"
             },
             "match": {
@@ -169,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 3906443700,
+              "duration": 1967373200,
               "status": "passed"
             },
             "match": {
@@ -177,14 +125,14 @@
             }
           }
         ],
-        "line": 242,
-        "name": "Finish Checkout process on Overview Page",
+        "line": 12,
+        "name": "Swag Labs Login with Valid User",
         "description": "",
-        "id": "sauce-demo-application-testing-feature;finish-checkout-process-on-overview-page;;3",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-valid-user;;3",
         "after": [
           {
             "result": {
-              "duration": 624874800,
+              "duration": 597267400,
               "status": "passed"
             },
             "match": {
@@ -193,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 54100,
+              "duration": 244100,
               "status": "passed"
             },
             "match": {
@@ -206,10 +154,10 @@
         "steps": [
           {
             "result": {
-              "duration": 449646000,
+              "duration": 428878700,
               "status": "passed"
             },
-            "line": 231,
+            "line": 6,
             "name": "user enters \"problem_user\" and \"secret_sauce\" and clicks on login button",
             "match": {
               "arguments": [
@@ -232,81 +180,29 @@
           },
           {
             "result": {
-              "duration": 27932600,
+              "duration": 30341000,
               "status": "passed"
             },
-            "line": 232,
-            "name": "user is on home page of swag labs",
+            "line": 7,
+            "name": "user is on home page and check for prodcuts",
             "match": {
-              "location": "SauceDemoStepDefinition.user_is_on_home_page_of_swag_labs()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 85000,
-              "status": "passed"
-            },
-            "line": 233,
-            "name": "user adds product from home page",
-            "match": {
-              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "productname"
-                ],
-                "line": 234
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 301596500,
-              "status": "passed"
-            },
-            "line": 235,
-            "name": "user checkout product from cart",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 639569800,
-              "status": "passed"
-            },
-            "line": 236,
-            "name": "user continue checkout with buyer data",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 354275400,
-              "status": "passed"
-            },
-            "line": 237,
-            "name": "user finish checkout process",
-            "match": {
-              "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
+              "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 228,
-            "name": "@e2e"
+            "line": 3,
+            "name": "@validcredentials"
           },
           {
-            "line": 228,
-            "name": "@checkoutwoproduct"
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@e2e"
           }
         ]
       },
@@ -314,7 +210,7 @@
         "before": [
           {
             "result": {
-              "duration": 37000,
+              "duration": 77300,
               "status": "passed"
             },
             "match": {
@@ -323,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 2055232000,
+              "duration": 2020662900,
               "status": "passed"
             },
             "match": {
@@ -331,14 +227,14 @@
             }
           }
         ],
-        "line": 243,
-        "name": "Finish Checkout process on Overview Page",
+        "line": 13,
+        "name": "Swag Labs Login with Valid User",
         "description": "",
-        "id": "sauce-demo-application-testing-feature;finish-checkout-process-on-overview-page;;4",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-valid-user;;4",
         "after": [
           {
             "result": {
-              "duration": 641793800,
+              "duration": 602076100,
               "status": "passed"
             },
             "match": {
@@ -347,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 57700,
+              "duration": 49000,
               "status": "passed"
             },
             "match": {
@@ -360,10 +256,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5678222200,
+              "duration": 5528338800,
               "status": "passed"
             },
-            "line": 231,
+            "line": 6,
             "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
             "match": {
               "arguments": [
@@ -386,22 +282,1984 @@
           },
           {
             "result": {
-              "duration": 43226400,
+              "duration": 37969500,
               "status": "passed"
             },
-            "line": 232,
-            "name": "user is on home page of swag labs",
+            "line": 7,
+            "name": "user is on home page and check for prodcuts",
             "match": {
-              "location": "SauceDemoStepDefinition.user_is_on_home_page_of_swag_labs()"
+              "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@validcredentials"
+          },
+          {
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2095128400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 579787000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 294870600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"standarduser\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standarduser",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 32
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36802900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Username and password do not match any user in this service",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 36400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1912843100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 574653600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 190900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 355179100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"standard_user\" and \"secretsauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secretsauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33416400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Username and password do not match any user in this service",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3848786000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 570422600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 325968500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"locked_out_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "locked_out_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 35
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33894600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Sorry, this user has been locked out.",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1938142500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 573428800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 176500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 301709000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"test_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 29
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32871100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Username and password do not match any user in this service",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 70500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1964690500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 572752500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 245722300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 20
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30695800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Username is required",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2003840100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Swag Labs Login with Invalid User",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;swag-labs-login-with-invalid-user;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 584400700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 344563100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"standard_user\" and \"\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32699600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify error message \"Epic sadface: Password is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Epic sadface: Password is required",
+                  "offset": 22
+                }
+              ],
+              "location": "SauceDemoStepDefinition.verify_error_message(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@invalidcredentials"
+          },
+          {
+            "line": 15,
+            "name": "@login"
+          },
+          {
+            "line": 15,
+            "name": "@e2e"
+          },
+          {
+            "line": 15,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3895219600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify Products on Home Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;verify-products-on-home-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 593552400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 449910700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30672000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 101500,
+              "duration": 735734000,
               "status": "passed"
             },
-            "line": 233,
+            "line": 36,
+            "name": "verify products on home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@2e2"
+          },
+          {
+            "line": 31,
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1977037300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Verify Products on Home Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;verify-products-on-home-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 565039200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 192500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 476331700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters \"problem_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "problem_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 32
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21625000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432753600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "verify products on home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@2e2"
+          },
+          {
+            "line": 31,
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 112400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2032613900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Verify Products on Home Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;verify-products-on-home-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 583465300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5558257000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22595700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 549977400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "verify products on home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@2e2"
+          },
+          {
+            "line": 31,
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3896195400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Sort Products on Home Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;sort-products-on-home-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677091800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 714495900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202205800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507569800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "verify user can sort products",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "value",
+                  "message",
+                  "firstproduct"
+                ],
+                "line": 50
+              },
+              {
+                "cells": [
+                  "za",
+                  "1st product displayed after sort of Z to A:",
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 51
+              },
+              {
+                "cells": [
+                  "lohi",
+                  "1st product displayed after sort of Low to High:",
+                  "Sauce Labs Onesie"
+                ],
+                "line": 52
+              },
+              {
+                "cells": [
+                  "hilo",
+                  "1st product displayed after sort of High to Low:",
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 53
+              },
+              {
+                "cells": [
+                  "az",
+                  "1st product displayed after sort of A to Z:",
+                  "Sauce Labs Backpack"
+                ],
+                "line": 54
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@homepage"
+          },
+          {
+            "line": 44,
+            "name": "@sort"
+          },
+          {
+            "line": 44,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2025178300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Sort Products on Home Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;sort-products-on-home-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 598188700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5563402200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20060500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 573960000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "verify user can sort products",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "value",
+                  "message",
+                  "firstproduct"
+                ],
+                "line": 50
+              },
+              {
+                "cells": [
+                  "za",
+                  "1st product displayed after sort of Z to A:",
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 51
+              },
+              {
+                "cells": [
+                  "lohi",
+                  "1st product displayed after sort of Low to High:",
+                  "Sauce Labs Onesie"
+                ],
+                "line": 52
+              },
+              {
+                "cells": [
+                  "hilo",
+                  "1st product displayed after sort of High to Low:",
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 53
+              },
+              {
+                "cells": [
+                  "az",
+                  "1st product displayed after sort of A to Z:",
+                  "Sauce Labs Backpack"
+                ],
+                "line": 54
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@homepage"
+          },
+          {
+            "line": 44,
+            "name": "@sort"
+          },
+          {
+            "line": 44,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 48800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2012079200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "HamBurger options",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;hamburger-options;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 596348300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 565213800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32224900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4071345900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "verify hamburger options",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_hamburger_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@e2e"
+          },
+          {
+            "line": 61,
+            "name": "@hamburger"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2730800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1995211500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "HamBurger options",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;hamburger-options;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 602392100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 472100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5525514200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25757500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13690701900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "verify hamburger options",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_hamburger_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@e2e"
+          },
+          {
+            "line": 61,
+            "name": "@hamburger"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2014009900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 105,
+        "name": "Adding product from Product Details Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;adding-product-from-product-details-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 632981800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 538515300,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19592000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2907958900,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "verify user adds product from product details page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_product_details_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 95
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 96
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ],
+                "line": 97
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ],
+                "line": 98
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 99
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ],
+                "line": 100
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 101
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 89,
+            "name": "@addproduct"
+          },
+          {
+            "line": 89,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3845346600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 106,
+        "name": "Adding product from Product Details Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;adding-product-from-product-details-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 580766300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5538671100,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18997000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33113933100,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "verify user adds product from product details page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_product_details_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 95
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 96
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ],
+                "line": 97
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ],
+                "line": 98
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 99
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ],
+                "line": 100
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 101
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 89,
+            "name": "@addproduct"
+          },
+          {
+            "line": 89,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2036377000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 120,
+        "name": "Continue Shopping on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;continue-shopping-on-cart-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 593201400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 470469100,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56811000,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420880000,
+              "status": "passed"
+            },
+            "line": 113,
             "name": "user adds product from home page",
             "match": {
               "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
@@ -411,17 +2269,839 @@
                 "cells": [
                   "productname"
                 ],
-                "line": 234
+                "line": 114
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 115
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 421329500,
+              "duration": 192993500,
               "status": "passed"
             },
-            "line": 235,
+            "line": 116,
+            "name": "user continue shopping from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 108,
+            "name": "@cartpage"
+          },
+          {
+            "line": 108,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1970171700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 121,
+        "name": "Continue Shopping on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;continue-shopping-on-cart-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 582573400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5548472700,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26537000,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403079100,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 114
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 115
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5206327200,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "user continue shopping from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 108,
+            "name": "@cartpage"
+          },
+          {
+            "line": 108,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1940330400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 135,
+        "name": "Remove product on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;remove-product-on-cart-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 599658600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 500716100,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19737100,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487193500,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 129
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 130
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301484100,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "user removes product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_removes_product_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 123,
+            "name": "@cartpage"
+          },
+          {
+            "line": 123,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1975348400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 136,
+        "name": "Remove product on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;remove-product-on-cart-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 592678500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5527165500,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17829800,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444092600,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 129
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 130
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5286937800,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "user removes product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_removes_product_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 123,
+            "name": "@cartpage"
+          },
+          {
+            "line": 123,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3907393000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 150,
+        "name": "checkout on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 598116700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 127600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 595937900,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159191300,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380688500,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 144
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 145
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219400600,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 138,
+            "name": "@checkout"
+          },
+          {
+            "line": 138,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 91700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1967574800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 151,
+        "name": "checkout on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 612448500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5559811800,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26922100,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443488400,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 144
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 145
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236636100,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 138,
+            "name": "@checkout"
+          },
+          {
+            "line": 138,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3872960100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 166,
+        "name": "Checkout without buyer data on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 593305600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 27900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 492846200,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25656400,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 398439800,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 159
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 160
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 218839700,
+              "status": "passed"
+            },
+            "line": 161,
             "name": "user checkout product from cart",
             "match": {
               "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
@@ -430,10 +3110,906 @@
           },
           {
             "result": {
-              "duration": 448111000,
+              "duration": 442065800,
               "status": "passed"
             },
-            "line": 236,
+            "line": 162,
+            "name": "user tries to checkout product from cart without buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 153,
+            "name": "@checkout"
+          },
+          {
+            "line": 153,
+            "name": "@e2e"
+          },
+          {
+            "line": 153,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1951000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 167,
+        "name": "Checkout without buyer data on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 592053300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5545842800,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24522500,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431837800,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 159
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 160
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220191500,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 454598000,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "user tries to checkout product from cart without buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 153,
+            "name": "@checkout"
+          },
+          {
+            "line": 153,
+            "name": "@e2e"
+          },
+          {
+            "line": 153,
+            "name": "@negativecase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2055082800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 182,
+        "name": "Cancel Checkout process on Your Information Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 583579000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 466531500,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22794900,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 494137200,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 175
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 176
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217577400,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114435300,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "user cancels checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 169,
+            "name": "@checkout"
+          },
+          {
+            "line": 169,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 198700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2093770400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 183,
+        "name": "Cancel Checkout process on Your Information Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 583900500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5514993200,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20289400,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432775600,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 175
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 176
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242339400,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135231400,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "user cancels checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 169,
+            "name": "@checkout"
+          },
+          {
+            "line": 169,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1956034900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 198,
+        "name": "Checkout with buyer data on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 616856400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 439370400,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19158200,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 531884500,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 191
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 192
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 278520400,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 446454000,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 185,
+            "name": "@checkout"
+          },
+          {
+            "line": 185,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 88800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2026342500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 199,
+        "name": "Checkout with buyer data on Cart Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 585465800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5513879800,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19211600,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 414105700,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 191
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 192
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223505600,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435762300,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 185,
+            "name": "@checkout"
+          },
+          {
+            "line": 185,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1963022300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 215,
+        "name": "Cancel Checkout process on Overview Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 590086700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 503351000,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25335800,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375963500,
+              "status": "passed"
+            },
+            "line": 206,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 207
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 208
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190013600,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 430946700,
+              "status": "passed"
+            },
+            "line": 210,
             "name": "user continue checkout with buyer data",
             "match": {
               "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
@@ -442,10 +4018,324 @@
           },
           {
             "result": {
-              "duration": 222465500,
+              "duration": 131580100,
               "status": "passed"
             },
-            "line": 237,
+            "line": 211,
+            "name": "user cancels checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 201,
+            "name": "@checkout"
+          },
+          {
+            "line": 201,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1992014700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 216,
+        "name": "Cancel Checkout process on Overview Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 628209900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5574527100,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24635400,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452317500,
+              "status": "passed"
+            },
+            "line": 206,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 207
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 208
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226560200,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 445607800,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5175682400,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "user cancels checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 201,
+            "name": "@checkout"
+          },
+          {
+            "line": 201,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2104785400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 231,
+        "name": "Finish Checkout process without product",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 606555100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 430915300,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67441600,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70300,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "verify user adds product from product details page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_product_details_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 224
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390791100,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435129000,
+              "status": "passed"
+            },
+            "line": 226,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190419900,
+              "status": "passed"
+            },
+            "line": 227,
             "name": "user finish checkout process",
             "match": {
               "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
@@ -455,12 +4345,546 @@
         ],
         "tags": [
           {
-            "line": 228,
+            "line": 218,
             "name": "@e2e"
           },
           {
-            "line": 228,
+            "line": 218,
             "name": "@checkoutwoproduct"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2023604300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 232,
+        "name": "Finish Checkout process without product",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 592771700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1526400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5536572800,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30197800,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68600,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "verify user adds product from product details page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_product_details_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 224
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 433891800,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408651200,
+              "status": "passed"
+            },
+            "line": 226,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189876700,
+              "status": "passed"
+            },
+            "line": 227,
+            "name": "user finish checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 218,
+            "name": "@e2e"
+          },
+          {
+            "line": 218,
+            "name": "@checkoutwoproduct"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1932681100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 253,
+        "name": "Finish Checkout process on Overview Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;finish-checkout-process-on-overview-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 599033000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 495102000,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26016400,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1099309700,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 240
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 241
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ],
+                "line": 242
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ],
+                "line": 243
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 244
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ],
+                "line": 245
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 246
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223348600,
+              "status": "passed"
+            },
+            "line": 247,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 428193000,
+              "status": "passed"
+            },
+            "line": 248,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222550600,
+              "status": "passed"
+            },
+            "line": 249,
+            "name": "user finish checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 234,
+            "name": "@checkout"
+          },
+          {
+            "line": 234,
+            "name": "@e2e"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeSetupStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2030805600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 254,
+        "name": "Finish Checkout process on Overview Page",
+        "description": "",
+        "id": "sauce-demo-application-testing-feature;finish-checkout-process-on-overview-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 613451200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SauceDemoStepDefinition.beforeTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5565716800,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 13
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 43
+                }
+              ],
+              "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35989500,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "user is on swag labs home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1021922600,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "user adds product from home page",
+            "match": {
+              "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "productname"
+                ],
+                "line": 240
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ],
+                "line": 241
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ],
+                "line": 242
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ],
+                "line": 243
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ],
+                "line": 244
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ],
+                "line": 245
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ],
+                "line": 246
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216045300,
+              "status": "passed"
+            },
+            "line": 247,
+            "name": "user checkout product from cart",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 412441300,
+              "status": "passed"
+            },
+            "line": 248,
+            "name": "user continue checkout with buyer data",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189071100,
+              "status": "passed"
+            },
+            "line": 249,
+            "name": "user finish checkout process",
+            "match": {
+              "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 234,
+            "name": "@checkout"
+          },
+          {
+            "line": 234,
+            "name": "@e2e"
           }
         ]
       }

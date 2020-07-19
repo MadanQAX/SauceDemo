@@ -4,7 +4,7 @@ Feature: Sauce Demo Application Testing Feature
 Scenario Outline: Swag Labs Login with Valid User
 
 Given user enters "<username>" and "<password>" and clicks on login button
-Then user is on home page
+Then user is on home page and check for prodcuts
 
 Examples:
 |username|password|
@@ -32,7 +32,7 @@ Examples:
 Scenario Outline: Verify Products on Home Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then verify products on home page
 
 Examples:
@@ -45,7 +45,7 @@ Examples:
 Scenario Outline: Sort Products on Home Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then verify user can sort products
 |value|message|firstproduct|
 |za|1st product displayed after sort of Z to A: |Test.allTheThings() T-Shirt (Red)|
@@ -62,7 +62,7 @@ Examples:
 Scenario Outline: HamBurger options
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then verify hamburger options
 
 Examples:
@@ -70,28 +70,27 @@ Examples:
 |standard_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
-@e2e @addproduct
-Scenario Outline: Adding product from Home Page
-
-Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
-Then user adds product from home page
-|productname|
-|Sauce Labs Backpack|
-|Sauce Labs Bike Light|
-|Sauce Labs Bolt T-Shirt|
-
-Examples:
-|username|password|
-|standard_user|secret_sauce|
-|problem_user|secret_sauce|
-|performance_glitch_user|secret_sauce|
+#@e2e @addproductfromhome
+#Scenario Outline: Adding product from Home Page
+#
+#Given user enters "<username>" and "<password>" and clicks on login button
+#When user is on swag labs home page
+#Then user adds product from home page
+#|productname|
+#|Sauce Labs Backpack|
+#|Sauce Labs Bike Light|
+#|Sauce Labs Bolt T-Shirt|
+#
+#Examples:
+#|username|password|
+#|standard_user|secret_sauce|
+#|performance_glitch_user|secret_sauce|
 
 @e2e @addproduct
 Scenario Outline: Adding product from Product Details Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then verify user adds product from product details page
 |productname|
 |Sauce Labs Backpack|
@@ -103,33 +102,29 @@ Then verify user adds product from product details page
 
 Examples:
 |username|password|
-|standard_user|secret_sauce||problem_user|secret_sauce|
+|standard_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @cartpage
 Scenario Outline: Continue Shopping on Cart Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
 Then user continue shopping from cart
-Then user adds product from home page
-|productname|
-|Sauce Labs Bike Light|
-|Sauce Labs Bolt T-Shirt|
 
 Examples:
 |username|password|
-|standard_user|secret_sauce||problem_user|secret_sauce|
+|standard_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @cartpage
 Scenario Outline: Remove product on Cart Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -137,14 +132,14 @@ Then user removes product from cart
 
 Examples:
 |username|password|
-|standard_user|secret_sauce||problem_user|secret_sauce|
+|standard_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkout
 Scenario Outline: checkout on Cart Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -153,14 +148,13 @@ Then user checkout product from cart
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @negativecase @e2e @checkout
 Scenario Outline: Checkout without buyer data on Cart Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -170,14 +164,13 @@ Then user tries to checkout product from cart without buyer data
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkout
 Scenario Outline: Cancel Checkout process on Your Information Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -187,14 +180,13 @@ Then user cancels checkout process
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkout
 Scenario Outline: Checkout with buyer data on Cart Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -204,14 +196,13 @@ Then user continue checkout with buyer data
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkout
 Scenario Outline: Cancel Checkout process on Overview Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -222,15 +213,14 @@ Then user cancels checkout process
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkoutwoproduct
-Scenario Outline: Finish Checkout process on Overview Page
+Scenario Outline: Finish Checkout process without product
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
-Then user adds product from home page
+When user is on swag labs home page
+Then verify user adds product from product details page
 |productname|
 Then user checkout product from cart
 Then user continue checkout with buyer data
@@ -239,14 +229,13 @@ Then user finish checkout process
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
 @e2e @checkout
 Scenario Outline: Finish Checkout process on Overview Page
 
 Given user enters "<username>" and "<password>" and clicks on login button
-When user is on home page of swag labs
+When user is on swag labs home page
 Then user adds product from home page
 |productname|
 |Sauce Labs Backpack|
@@ -262,5 +251,4 @@ Then user finish checkout process
 Examples:
 |username|password|
 |standard_user|secret_sauce|
-|problem_user|secret_sauce|
 |performance_glitch_user|secret_sauce|

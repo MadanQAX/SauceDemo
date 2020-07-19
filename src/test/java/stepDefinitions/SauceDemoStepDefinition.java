@@ -215,10 +215,10 @@ public class SauceDemoStepDefinition extends variableEnvironments{
 	{
 		for (Map<String, String> data : productname.asMaps(String.class, String.class)){
 			System.out.println(data.get("productname"));
-		WebElement productName = driver.findElement(By.xpath("//*[@class=\"inventory_item_name\" and contains(text(),'"+data.get("productname")+"')]"));
+		WebElement productName = driver.findElement(By.xpath("//*[@class='inventory_item_name' and contains(text(),'"+data.get("productname")+"')]"));
 		productName.click();
-		driver.findElement(By.xpath("//button[@class=\"btn_primary btn_inventory\"]")).click();
-		driver.findElement(By.xpath("//button[@class=\"inventory_details_back_button\"]")).click();
+		driver.findElement(By.xpath("//button[@class='btn_primary btn_inventory']")).click();
+		driver.findElement(By.xpath("//div[@class='inventory_details']/button")).click();
 	}	
 	}	
 	

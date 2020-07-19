@@ -70,21 +70,21 @@ Examples:
 |standard_user|secret_sauce|
 |performance_glitch_user|secret_sauce|
 
-#@e2e @addproductfromhome
-#Scenario Outline: Adding product from Home Page
-#
-#Given user enters "<username>" and "<password>" and clicks on login button
-#When user is on swag labs home page
-#Then user adds product from home page
-#|productname|
-#|Sauce Labs Backpack|
-#|Sauce Labs Bike Light|
-#|Sauce Labs Bolt T-Shirt|
-#
-#Examples:
-#|username|password|
-#|standard_user|secret_sauce|
-#|performance_glitch_user|secret_sauce|
+@e2e @addproduct
+Scenario Outline: Adding product from Home Page
+
+Given user enters "<username>" and "<password>" and clicks on login button
+When user is on swag labs home page
+Then user adds product from home page
+|productname|
+|Sauce Labs Backpack|
+|Sauce Labs Bike Light|
+|Sauce Labs Bolt T-Shirt|
+
+Examples:
+|username|password|
+|standard_user|secret_sauce|
+|performance_glitch_user|secret_sauce|
 
 @e2e @addproduct
 Scenario Outline: Adding product from Product Details Page

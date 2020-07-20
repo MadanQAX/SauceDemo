@@ -1,159 +1,229 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="38" time="354.177233">
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User" time="7.229157">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="49" time="461.325786">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User" time="4.894707">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 Then user is on home page and check for prodcuts............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User 2" time="4.465775">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User 2" time="3.103243">
 <system-out><![CDATA[Given user enters "problem_user" and "secret_sauce" and clicks on login button.passed
 Then user is on home page and check for prodcuts............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User 3" time="9.853078">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Valid User 3" time="10.150078">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 Then user is on home page and check for prodcuts............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User" time="4.787018">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User" time="3.076468">
 <system-out><![CDATA[Given user enters "standarduser" and "secret_sauce" and clicks on login button.passed
 Then verify error message "Epic sadface: Username and password do not match any user in this service".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 2" time="4.599742">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 2" time="3.022873">
 <system-out><![CDATA[Given user enters "standard_user" and "secretsauce" and clicks on login button.passed
 Then verify error message "Epic sadface: Username and password do not match any user in this service".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 3" time="4.664453">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 3" time="2.906898">
 <system-out><![CDATA[Given user enters "locked_out_user" and "secret_sauce" and clicks on login button.passed
 Then verify error message "Epic sadface: Sorry, this user has been locked out.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 4" time="4.747799">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 4" time="2.958091">
 <system-out><![CDATA[Given user enters "test_user" and "secret_sauce" and clicks on login button.passed
 Then verify error message "Epic sadface: Username and password do not match any user in this service".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 5" time="4.819486">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 5" time="2.95739">
 <system-out><![CDATA[Given user enters "" and "secret_sauce" and clicks on login button..........passed
 Then verify error message "Epic sadface: Username is required"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 6" time="4.663959">
+<testcase classname="Sauce Demo Application Testing Feature" name="Swag Labs Login with Invalid User 6" time="4.800764">
 <system-out><![CDATA[Given user enters "standard_user" and "" and clicks on login button.........passed
 Then verify error message "Epic sadface: Password is required"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Verify Products on Home Page" time="5.131599">
+<testcase classname="Sauce Demo Application Testing Feature" name="Verify Products on Home Page" time="3.850007">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then verify products on home page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Verify Products on Home Page 2" time="5.106256">
-<system-out><![CDATA[Given user enters "problem_user" and "secret_sauce" and clicks on login button.passed
-When user is on swag labs home page.........................................passed
-Then verify products on home page...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Verify Products on Home Page 3" time="10.008236">
+<testcase classname="Sauce Demo Application Testing Feature" name="Verify Products on Home Page 2" time="10.656039">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then verify products on home page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Sort Products on Home Page" time="5.86796">
+<testcase classname="Sauce Demo Application Testing Feature" name="Sort Products on Home Page" time="5.864139">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then verify user can sort products..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Sort Products on Home Page 2" time="10.875457">
+<testcase classname="Sauce Demo Application Testing Feature" name="Sort Products on Home Page 2" time="11.092152">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then verify user can sort products..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="HamBurger options" time="9.378747">
+<testcase classname="Sauce Demo Application Testing Feature" name="All Items option of hamburger" time="5.6866">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify hamburger options...............................................passed
+Then user clicks on all items...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="HamBurger options 2" time="24.169037">
+<testcase classname="Sauce Demo Application Testing Feature" name="All Items option of hamburger 2" time="13.704848">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify hamburger options...............................................passed
+Then user clicks on all items...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Home Page" time="5.681701">
+<testcase classname="Sauce Demo Application Testing Feature" name="About option of hamburger" time="6.220936">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on about...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="About option of hamburger 2" time="16.328119">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on about...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Reset App State option of hamburger" time="3.574589">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on Reset App State.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Reset App State option of hamburger 2" time="10.747352">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on Reset App State.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Logout option of hamburger" time="3.718477">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on logout..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Logout option of hamburger 2" time="8.864631">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user clicks on logout..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Adding products from Home Page" time="4.417605">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Home Page 2" time="10.620777">
+<testcase classname="Sauce Demo Application Testing Feature" name="Adding products from Home Page 2" time="16.013762">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Product Details Page" time="7.822049">
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove products on home Page" time="4.002061">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify user adds product from product details page.....................passed
+Then user adds product from home page.......................................passed
+Then user removes product on home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Product Details Page 2" time="43.05602">
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove products on home Page 2" time="16.095174">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify user adds product from product details page.....................passed
+Then user adds product from home page.......................................passed
+Then user removes product on home page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Continue Shopping on Cart Page" time="5.596986">
+<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Product Details Page" time="8.224801">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from product details page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Adding product from Product Details Page 2" time="36.309442">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from product details page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove product from Product Details Page" time="6.831195">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from product details page............................passed
+Then user removes products from product details page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove product from Product Details Page 2" time="32.100676">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from product details page............................passed
+Then user removes products from product details page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove products on Cart page" time="4.118352">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from home page.......................................passed
+Then user removes products from cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Remove products on Cart page 2" time="14.330486">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user adds product from home page.......................................passed
+Then user removes products from cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Continue Shopping on Cart Page" time="6.226801">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user continue shopping from cart.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Continue Shopping on Cart Page 2" time="15.529166">
+<testcase classname="Sauce Demo Application Testing Feature" name="Continue Shopping on Cart Page 2" time="19.179302">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user continue shopping from cart.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Remove product on Cart Page" time="5.651561">
-<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
-When user is on swag labs home page.........................................passed
-Then user adds product from home page.......................................passed
-Then user removes product from cart.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Remove product on Cart Page 2" time="15.86143">
-<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
-When user is on swag labs home page.........................................passed
-Then user adds product from home page.......................................passed
-Then user removes product from cart.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="checkout on Cart Page" time="5.446205">
+<testcase classname="Sauce Demo Application Testing Feature" name="checkout on Cart Page" time="6.02322">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user checkout product from cart........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="checkout on Cart Page 2" time="10.542909">
+<testcase classname="Sauce Demo Application Testing Feature" name="checkout on Cart Page 2" time="14.20195">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user checkout product from cart........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Checkout without buyer data on Cart Page" time="6.062318">
+<testcase classname="Sauce Demo Application Testing Feature" name="checkout without product on Cart Page" time="5.67303">
+<system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user checkout product from cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="checkout without product on Cart Page 2" time="8.707331">
+<system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
+When user is on swag labs home page.........................................passed
+Then user checkout product from cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Demo Application Testing Feature" name="Checkout without buyer data on Cart Page" time="4.670359">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -161,7 +231,7 @@ Then user checkout product from cart........................................pass
 Then user tries to checkout product from cart without buyer data............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Checkout without buyer data on Cart Page 2" time="11.129912">
+<testcase classname="Sauce Demo Application Testing Feature" name="Checkout without buyer data on Cart Page 2" time="14.59194">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -169,7 +239,7 @@ Then user checkout product from cart........................................pass
 Then user tries to checkout product from cart without buyer data............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Your Information Page" time="5.505431">
+<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Your Information Page" time="4.294143">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -177,7 +247,7 @@ Then user checkout product from cart........................................pass
 Then user cancels checkout process..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Your Information Page 2" time="10.380745">
+<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Your Information Page 2" time="14.326554">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -185,7 +255,7 @@ Then user checkout product from cart........................................pass
 Then user cancels checkout process..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Checkout with buyer data on Cart Page" time="5.40776">
+<testcase classname="Sauce Demo Application Testing Feature" name="Checkout with buyer data on Cart Page" time="4.748597">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -193,7 +263,7 @@ Then user checkout product from cart........................................pass
 Then user continue checkout with buyer data.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Checkout with buyer data on Cart Page 2" time="10.825127">
+<testcase classname="Sauce Demo Application Testing Feature" name="Checkout with buyer data on Cart Page 2" time="14.781314">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -201,7 +271,7 @@ Then user checkout product from cart........................................pass
 Then user continue checkout with buyer data.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Overview Page" time="5.831431">
+<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Overview Page" time="4.77987">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -210,7 +280,7 @@ Then user continue checkout with buyer data.................................pass
 Then user cancels checkout process..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Overview Page 2" time="16.433943">
+<testcase classname="Sauce Demo Application Testing Feature" name="Cancel Checkout process on Overview Page 2" time="20.088017">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
@@ -219,40 +289,42 @@ Then user continue checkout with buyer data.................................pass
 Then user cancels checkout process..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process without product" time="5.779032">
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process without product" time="4.397573">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify user adds product from product details page.....................passed
 Then user checkout product from cart........................................passed
 Then user continue checkout with buyer data.................................passed
 Then user finish checkout process...........................................passed
+Then user clicks on logout..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process without product 2" time="10.311397">
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process without product 2" time="10.078042">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
-Then verify user adds product from product details page.....................passed
 Then user checkout product from cart........................................passed
 Then user continue checkout with buyer data.................................passed
 Then user finish checkout process...........................................passed
+Then user clicks on logout..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process on Overview Page" time="7.427756">
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process with products" time="6.186294">
 <system-out><![CDATA[Given user enters "standard_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user checkout product from cart........................................passed
 Then user continue checkout with buyer data.................................passed
 Then user finish checkout process...........................................passed
+Then user clicks on logout..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process on Overview Page 2" time="12.905818">
+<testcase classname="Sauce Demo Application Testing Feature" name="Finish Checkout process with products 2" time="17.749494">
 <system-out><![CDATA[Given user enters "performance_glitch_user" and "secret_sauce" and clicks on login button.passed
 When user is on swag labs home page.........................................passed
 Then user adds product from home page.......................................passed
 Then user checkout product from cart........................................passed
 Then user continue checkout with buyer data.................................passed
 Then user finish checkout process...........................................passed
+Then user clicks on logout..................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

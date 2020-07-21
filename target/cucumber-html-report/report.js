@@ -78,11 +78,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 343600,
+  "duration": 411600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3185333900,
+  "duration": 3763509600,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,30 +127,30 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 1009199200,
+  "duration": 699508600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 81168700,
+  "duration": 44511800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 618604100,
+  "duration": 543977800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 57300,
+  "duration": 54700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60300,
+  "duration": 119400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2000699400,
+  "duration": 2967458800,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,30 +195,30 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 453542700,
+  "duration": 434547800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 63977500,
+  "duration": 36293400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 584912100,
+  "duration": 543921000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 51000,
+  "duration": 41000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71900,
+  "duration": 32600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3866984600,
+  "duration": 2844066500,
   "status": "passed"
 });
 formatter.scenario({
@@ -263,22 +263,22 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5594388600,
+  "duration": 5502840400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 74919200,
+  "duration": 238576000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 612861100,
+  "duration": 542095000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 852400,
+  "duration": 48700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -388,11 +388,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 66500,
+  "duration": 43900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2072687600,
+  "duration": 2869727800,
   "status": "passed"
 });
 formatter.scenario({
@@ -444,7 +444,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 345382600,
+  "duration": 316391600,
   "status": "passed"
 });
 formatter.match({
@@ -457,23 +457,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 60884200,
+  "duration": 51027000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 597403000,
+  "duration": 537426900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44100,
+  "duration": 39100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38200,
+  "duration": 34300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2065951600,
+  "duration": 1334055600,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 330392200,
+  "duration": 315882700,
   "status": "passed"
 });
 formatter.match({
@@ -538,23 +538,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 53134800,
+  "duration": 55415300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 573307700,
+  "duration": 549157800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48900,
+  "duration": 45000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46600,
+  "duration": 70900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1950632100,
+  "duration": 2934089600,
   "status": "passed"
 });
 formatter.scenario({
@@ -606,7 +606,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 330608500,
+  "duration": 330034900,
   "status": "passed"
 });
 formatter.match({
@@ -619,23 +619,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 53638200,
+  "duration": 49778000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 571915000,
+  "duration": 536640000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 57300,
+  "duration": 176700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 48800,
+  "duration": 46400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1947631900,
+  "duration": 2879702300,
   "status": "passed"
 });
 formatter.scenario({
@@ -687,7 +687,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 359327400,
+  "duration": 271444400,
   "status": "passed"
 });
 formatter.match({
@@ -700,23 +700,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 64225600,
+  "duration": 49071000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 586813700,
+  "duration": 535018500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43300,
+  "duration": 43700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42200,
+  "duration": 79600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2048962500,
+  "duration": 2877546300,
   "status": "passed"
 });
 formatter.scenario({
@@ -768,7 +768,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 263759300,
+  "duration": 238903200,
   "status": "passed"
 });
 formatter.match({
@@ -781,23 +781,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 67509900,
+  "duration": 50343100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 577073900,
+  "duration": 542868900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 42600,
+  "duration": 41800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 42000,
+  "duration": 47200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3908862000,
+  "duration": 2895917200,
   "status": "passed"
 });
 formatter.scenario({
@@ -849,7 +849,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 270332000,
+  "duration": 241341900,
   "status": "passed"
 });
 formatter.match({
@@ -862,15 +862,15 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 49311800,
+  "duration": 46592200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 572172700,
+  "duration": 536257000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43600,
+  "duration": 35400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -942,11 +942,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 53500,
+  "duration": 56300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1920712500,
+  "duration": 2840016000,
   "status": "passed"
 });
 formatter.scenario({
@@ -996,37 +996,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 491366200,
+  "duration": 430589700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 66515100,
+  "duration": 39294700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
 });
 formatter.result({
-  "duration": 766480000,
+  "duration": 488785700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 604832600,
+  "duration": 543937800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 47300,
+  "duration": 42100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54900,
+  "duration": 52600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3862874800,
+  "duration": 2863878300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1076,25 +1076,25 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5625354000,
+  "duration": 5496365300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 47574300,
+  "duration": 51905900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
 });
 formatter.result({
-  "duration": 513953900,
+  "duration": 490319800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 606185300,
+  "duration": 549325100,
   "status": "passed"
 });
 formatter.after({
@@ -1216,11 +1216,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 48800,
+  "duration": 35400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4025879000,
+  "duration": 1296510100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1316,37 +1316,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 499350600,
+  "duration": 410333400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 56034700,
+  "duration": 41607800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
 });
 formatter.result({
-  "duration": 687540000,
+  "duration": 704545500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 595244900,
+  "duration": 544244200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41000,
+  "duration": 121800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55100,
+  "duration": 73000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3974726200,
+  "duration": 2850887800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1442,29 +1442,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5544644200,
+  "duration": 5471992000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 77247600,
+  "duration": 40080700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
 });
 formatter.result({
-  "duration": 894139200,
+  "duration": 690719500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 601295100,
+  "duration": 543170100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44900,
+  "duration": 39000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1540,11 +1540,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 44500,
+  "duration": 73000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3909320900,
+  "duration": 1352370800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1598,37 +1598,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 511285200,
+  "duration": 447249300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 61707100,
+  "duration": 42314000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_all_items()"
 });
 formatter.result({
-  "duration": 594244200,
+  "duration": 454370200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 609959600,
+  "duration": 537006200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38100,
+  "duration": 38300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45600,
+  "duration": 79800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1942758100,
+  "duration": 2830779300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1682,29 +1682,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5522831600,
+  "duration": 5467300300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 53896000,
+  "duration": 40390000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_all_items()"
 });
 formatter.result({
-  "duration": 5576235700,
+  "duration": 5463233900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 609039600,
+  "duration": 540382000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41300,
+  "duration": 42900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1780,11 +1780,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2949900,
+  "duration": 499600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2155589300,
+  "duration": 2841792400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1838,37 +1838,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 602796700,
+  "duration": 403898600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 62294900,
+  "duration": 42954800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_about()"
 });
 formatter.result({
-  "duration": 2785987000,
+  "duration": 2533970800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 610919500,
+  "duration": 544472300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 398300,
+  "duration": 359100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 44700,
+  "duration": 43000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1974926100,
+  "duration": 2836342700,
   "status": "passed"
 });
 formatter.scenario({
@@ -1922,29 +1922,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5571720400,
+  "duration": 5458690000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 135818900,
+  "duration": 45843700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_about()"
 });
 formatter.result({
-  "duration": 8039442300,
+  "duration": 7714274600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 606114000,
+  "duration": 552775200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 52500,
+  "duration": 54100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2020,11 +2020,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 39100,
+  "duration": 40400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1960910300,
+  "duration": 2859631200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2078,37 +2078,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 455684800,
+  "duration": 650504700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 57808200,
+  "duration": 50212100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on__Reset_App_State()"
 });
 formatter.result({
-  "duration": 441165100,
+  "duration": 359733600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 658948100,
+  "duration": 540553900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33000,
+  "duration": 35800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33900,
+  "duration": 36700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3912438700,
+  "duration": 2843530200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2162,29 +2162,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5676588100,
+  "duration": 5477436200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 189177700,
+  "duration": 42470500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on__Reset_App_State()"
 });
 formatter.result({
-  "duration": 371605100,
+  "duration": 408733500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 597472500,
+  "duration": 550906200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35700,
+  "duration": 35300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2260,11 +2260,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 33900,
+  "duration": 62300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2036788900,
+  "duration": 2883802700,
   "status": "passed"
 });
 formatter.scenario({
@@ -2318,37 +2318,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 586125200,
+  "duration": 431986400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 53920400,
+  "duration": 42470800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 424164800,
+  "duration": 396196500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 617410900,
+  "duration": 549453100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32700,
+  "duration": 38400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33000,
+  "duration": 46500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2032093600,
+  "duration": 2871272100,
   "status": "passed"
 });
 formatter.scenario({
@@ -2402,29 +2402,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5664968500,
+  "duration": 5936928600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 60485700,
+  "duration": 39077800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 492135800,
+  "duration": 399247400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 614877500,
+  "duration": 539183700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 36600,
+  "duration": 37900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2526,11 +2526,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 36900,
+  "duration": 67700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2053736300,
+  "duration": 2829178200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2610,37 +2610,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 556344000,
+  "duration": 600936600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 127096400,
+  "duration": 40775700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 1062633600,
+  "duration": 659570600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 617726600,
+  "duration": 538570700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31400,
+  "duration": 37800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38700,
+  "duration": 41200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3895743200,
+  "duration": 2858539400,
   "status": "passed"
 });
 formatter.scenario({
@@ -2720,29 +2720,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5572387100,
+  "duration": 5560037000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 45520400,
+  "duration": 42602500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5870846100,
+  "duration": 5634350700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 627910200,
+  "duration": 558104300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1316000,
+  "duration": 38100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2851,11 +2851,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 36600,
+  "duration": 63200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2056170700,
+  "duration": 2863076900,
   "status": "passed"
 });
 formatter.scenario({
@@ -2942,44 +2942,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 525438900,
+  "duration": 538949000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 56252800,
+  "duration": 40065500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 547641800,
+  "duration": 452215000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_product_on_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 227288300,
+  "duration": 207714100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 588716400,
+  "duration": 541927800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 515900,
+  "duration": 39000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35400,
+  "duration": 40900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3873276600,
+  "duration": 2842237900,
   "status": "passed"
 });
 formatter.scenario({
@@ -3066,36 +3066,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5579243500,
+  "duration": 5534539500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 62226300,
+  "duration": 47269900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5665064800,
+  "duration": 5449163900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_product_on_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 248307200,
+  "duration": 224584800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 666988300,
+  "duration": 610027700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31700,
+  "duration": 34300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3115,6 +3115,10 @@ formatter.scenarioOutline({
     {
       "line": 153,
       "name": "@addproduct"
+    },
+    {
+      "line": 153,
+      "name": "@test"
     }
   ]
 });
@@ -3211,11 +3215,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 37300,
+  "duration": 67900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3993333000,
+  "duration": 2900409500,
   "status": "passed"
 });
 formatter.scenario({
@@ -3229,6 +3233,10 @@ formatter.scenario({
     {
       "line": 153,
       "name": "@addproduct"
+    },
+    {
+      "line": 153,
+      "name": "@test"
     }
   ]
 });
@@ -3309,37 +3317,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 611093300,
+  "duration": 455228000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 69113100,
+  "duration": 41373100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 2945763000,
+  "duration": 2461019200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 605430200,
+  "duration": 544703800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30800,
+  "duration": 134300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 33900,
+  "duration": 68300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2003364200,
+  "duration": 2875918900,
   "status": "passed"
 });
 formatter.scenario({
@@ -3353,6 +3361,10 @@ formatter.scenario({
     {
       "line": 153,
       "name": "@addproduct"
+    },
+    {
+      "line": 153,
+      "name": "@test"
     }
   ]
 });
@@ -3433,29 +3445,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5617604700,
+  "duration": 5464599700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 214412900,
+  "duration": 66908200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 27870396700,
+  "duration": 32961161500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 603597100,
+  "duration": 558357800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32200,
+  "duration": 49700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3576,11 +3588,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34700,
+  "duration": 45900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3887219700,
+  "duration": 2854150500,
   "status": "passed"
 });
 formatter.scenario({
@@ -3679,44 +3691,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 453850200,
+  "duration": 427315900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 62755900,
+  "duration": 40639100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 910354100,
+  "duration": 901365200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 895552400,
+  "duration": 678945500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 621392800,
+  "duration": 657174400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35300,
+  "duration": 60500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 146400,
+  "duration": 64500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3878170200,
+  "duration": 2909013200,
   "status": "passed"
 });
 formatter.scenario({
@@ -3815,36 +3827,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5589878400,
+  "duration": 5493939400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 47542800,
+  "duration": 43661600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 5983562100,
+  "duration": 10881098600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 15972774200,
+  "duration": 10746180100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 628570200,
+  "duration": 540000400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31200,
+  "duration": 43400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3953,11 +3965,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 40400,
+  "duration": 38800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1978832600,
+  "duration": 2834326700,
   "status": "passed"
 });
 formatter.scenario({
@@ -4044,44 +4056,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 522468900,
+  "duration": 435138700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 57348900,
+  "duration": 39687400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 572852500,
+  "duration": 546574300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_cart(DataTable)"
 });
 formatter.result({
-  "duration": 341471700,
+  "duration": 284534000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 645304600,
+  "duration": 544904900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31900,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34200,
+  "duration": 77200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2053027100,
+  "duration": 2839837700,
   "status": "passed"
 });
 formatter.scenario({
@@ -4168,36 +4180,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5608850100,
+  "duration": 5519148300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 51597300,
+  "duration": 210827200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5539649800,
+  "duration": 5389823700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_cart(DataTable)"
 });
 formatter.result({
-  "duration": 404332200,
+  "duration": 332547400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 672961200,
+  "duration": 539138300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 34000,
+  "duration": 42700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4288,11 +4300,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34300,
+  "duration": 72500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3983139300,
+  "duration": 2844824500,
   "status": "passed"
 });
 formatter.scenario({
@@ -4361,44 +4373,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 607538600,
+  "duration": 615706900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 64932700,
+  "duration": 41794400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 586011100,
+  "duration": 460228200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
 });
 formatter.result({
-  "duration": 401266200,
+  "duration": 362500500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 583841200,
+  "duration": 540348000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37600,
+  "duration": 46200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38000,
+  "duration": 71000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2072722900,
+  "duration": 2829301500,
   "status": "passed"
 });
 formatter.scenario({
@@ -4467,36 +4479,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5571484900,
+  "duration": 5486837600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 48897600,
+  "duration": 41797300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5499307400,
+  "duration": 5499955300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
 });
 formatter.result({
-  "duration": 5405605100,
+  "duration": 5399767600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 581212300,
+  "duration": 549968300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 34200,
+  "duration": 41600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4591,11 +4603,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 46000,
+  "duration": 70600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3890322000,
+  "duration": 2876750400,
   "status": "passed"
 });
 formatter.scenario({
@@ -4668,44 +4680,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 493494900,
+  "duration": 417347500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 46591300,
+  "duration": 43539100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 601885900,
+  "duration": 582481300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 375720700,
+  "duration": 310819200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 615121800,
+  "duration": 549671400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37200,
+  "duration": 41400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37400,
+  "duration": 44400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1999044400,
+  "duration": 2839233600,
   "status": "passed"
 });
 formatter.scenario({
@@ -4778,36 +4790,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5606844300,
+  "duration": 5484748000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 44067100,
+  "duration": 68860100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5405486600,
+  "duration": 5463194000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 493916100,
+  "duration": 359795000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 652523100,
+  "duration": 539522400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31400,
+  "duration": 41300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4879,11 +4891,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34900,
+  "duration": 45800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4022845000,
+  "duration": 2874554400,
   "status": "passed"
 });
 formatter.scenario({
@@ -4933,37 +4945,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 620492900,
+  "duration": 618281500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 134027000,
+  "duration": 42841200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 297886700,
+  "duration": 289579800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 597712000,
+  "duration": 539106400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31700,
+  "duration": 38900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37800,
+  "duration": 42000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2011609300,
+  "duration": 2855425500,
   "status": "passed"
 });
 formatter.scenario({
@@ -5013,29 +5025,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5526821100,
+  "duration": 5478671900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 46571700,
+  "duration": 41724000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 441813300,
+  "duration": 331785600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 680442600,
+  "duration": 539689900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35200,
+  "duration": 41500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -5135,11 +5147,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34600,
+  "duration": 45400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2082928900,
+  "duration": 2920448400,
   "status": "passed"
 });
 formatter.scenario({
@@ -5217,51 +5229,51 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 493834500,
+  "duration": 544748900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 57035000,
+  "duration": 44679900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 657062900,
+  "duration": 392874100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 319187100,
+  "duration": 411967000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
 });
 formatter.result({
-  "duration": 470212200,
+  "duration": 442987700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 590031200,
+  "duration": 543326300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32800,
+  "duration": 41800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62100,
+  "duration": 46700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1974940300,
+  "duration": 2855344800,
   "status": "passed"
 });
 formatter.scenario({
@@ -5339,43 +5351,43 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5550587100,
+  "duration": 5481418700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 52975900,
+  "duration": 39946200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5555343800,
+  "duration": 5502145100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 396972200,
+  "duration": 360056100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
 });
 formatter.result({
-  "duration": 455416700,
+  "duration": 437469700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 605609500,
+  "duration": 574609800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32500,
+  "duration": 41200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -5471,11 +5483,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 34200,
+  "duration": 43200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2011529400,
+  "duration": 1356901600,
   "status": "passed"
 });
 formatter.scenario({
@@ -5549,51 +5561,51 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 511331500,
+  "duration": 401505400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 46095600,
+  "duration": 248134400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 527404500,
+  "duration": 437941500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 389572500,
+  "duration": 318490700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
 });
 formatter.result({
-  "duration": 163102000,
+  "duration": 82083200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 645039300,
+  "duration": 541249600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33500,
+  "duration": 39100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34800,
+  "duration": 42800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2026597900,
+  "duration": 2880242600,
   "status": "passed"
 });
 formatter.scenario({
@@ -5667,43 +5679,43 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5548327500,
+  "duration": 5543673800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 74321100,
+  "duration": 38803800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5495413300,
+  "duration": 5453757900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 464831700,
+  "duration": 365112300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
 });
 formatter.result({
-  "duration": 129238400,
+  "duration": 82545800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 587756300,
+  "duration": 537599100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33000,
+  "duration": 39900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -5799,11 +5811,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 36100,
+  "duration": 41500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2064443000,
+  "duration": 2886952800,
   "status": "passed"
 });
 formatter.scenario({
@@ -5877,51 +5889,51 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 742023400,
+  "duration": 409089300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 54482000,
+  "duration": 40870400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 413290100,
+  "duration": 479214400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 388707700,
+  "duration": 367112900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 479238400,
+  "duration": 396911800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 606344100,
+  "duration": 543035500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32600,
+  "duration": 95800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35000,
+  "duration": 61900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2075759700,
+  "duration": 2860331000,
   "status": "passed"
 });
 formatter.scenario({
@@ -5995,43 +6007,43 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5581929700,
+  "duration": 5490713200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 46447000,
+  "duration": 48388800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5548132700,
+  "duration": 5498760900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 501714800,
+  "duration": 360800900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 420458700,
+  "duration": 487298600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 606016800,
+  "duration": 537958600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 819400,
+  "duration": 39200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6132,11 +6144,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 43000,
+  "duration": 61000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2026772300,
+  "duration": 2883606700,
   "status": "passed"
 });
 formatter.scenario({
@@ -6215,58 +6227,58 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 517402300,
+  "duration": 434478200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 76288200,
+  "duration": 41796000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 533310500,
+  "duration": 471203200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 360712000,
+  "duration": 357337600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 491576000,
+  "duration": 400989900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
 });
 formatter.result({
-  "duration": 159991100,
+  "duration": 95942400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 613742600,
+  "duration": 541622300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32200,
+  "duration": 39000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35000,
+  "duration": 74500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1919767800,
+  "duration": 2867427000,
   "status": "passed"
 });
 formatter.scenario({
@@ -6345,50 +6357,50 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5874692900,
+  "duration": 5462714600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 223496800,
+  "duration": 51681400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5409549700,
+  "duration": 5572215900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 410727800,
+  "duration": 355975700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 458503500,
+  "duration": 412144200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
 });
 formatter.result({
-  "duration": 5176072700,
+  "duration": 5136186800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 615139800,
+  "duration": 545988400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31100,
+  "duration": 42000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6475,11 +6487,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 38500,
+  "duration": 70500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1956810000,
+  "duration": 2876417700,
   "status": "passed"
 });
 formatter.scenario({
@@ -6544,58 +6556,58 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 488469900,
+  "duration": 414442300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 94705700,
+  "duration": 39668900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 381411900,
+  "duration": 405103000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 436667900,
+  "duration": 414524100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
 });
 formatter.result({
-  "duration": 196272900,
+  "duration": 155008900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 246625700,
+  "duration": 223904600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 596539900,
+  "duration": 540479400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30400,
+  "duration": 94500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 39000,
+  "duration": 60300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2079727900,
+  "duration": 2860396800,
   "status": "passed"
 });
 formatter.scenario({
@@ -6660,50 +6672,50 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5577989400,
+  "duration": 5456073900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 51233200,
+  "duration": 222792100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 433784800,
+  "duration": 198843200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 526321700,
+  "duration": 391563700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
 });
 formatter.result({
-  "duration": 277964200,
+  "duration": 156341200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 379606000,
+  "duration": 199738700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 751342000,
+  "duration": 541451500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33400,
+  "duration": 38300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -6839,11 +6851,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 53100,
+  "duration": 60900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1970803900,
+  "duration": 2880771800,
   "status": "passed"
 });
 formatter.scenario({
@@ -6957,65 +6969,65 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 739996400,
+  "duration": 537456200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 72556100,
+  "duration": 46509100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 1239622000,
+  "duration": 1108735700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 430381900,
+  "duration": 281409700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 604624100,
+  "duration": 408785300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
 });
 formatter.result({
-  "duration": 237861800,
+  "duration": 148292100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 288761400,
+  "duration": 245486500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 601602000,
+  "duration": 601747900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31200,
+  "duration": 105100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 35400,
+  "duration": 64000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3903993400,
+  "duration": 2916347400,
   "status": "passed"
 });
 formatter.scenario({
@@ -7129,57 +7141,57 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5521196500,
+  "duration": 5514522400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 48624600,
+  "duration": 41917200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 6319072900,
+  "duration": 6099504600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
 });
 formatter.result({
-  "duration": 479176900,
+  "duration": 382410100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
 });
 formatter.result({
-  "duration": 440071100,
+  "duration": 419804300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
 });
 formatter.result({
-  "duration": 194664900,
+  "duration": 145572500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 251105600,
+  "duration": 211430100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 591520700,
+  "duration": 540142200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31600,
+  "duration": 36600,
   "status": "passed"
 });
 });

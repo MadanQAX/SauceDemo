@@ -150,7 +150,7 @@ Examples:
 |performance_glitch_user|secret_sauce|
 
 ###Test Scenario 11
-@addproduct 
+@addproduct @test
 Scenario Outline: Adding product from Product Details Page
 
 Given user enters "<username>" and "<password>" and clicks on login button

@@ -10,6 +10,7 @@ import dataSet.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -79,12 +80,13 @@ public class BasePage extends variableEnvironments{
 	
 	public void browserSetup()
 	{
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
 		String browser = System.getProperty("BROWSER");
 		System.out.println(browser);
 		if(browser==null)
 		{
 			browser = variableenvironments.BROWSER;
-//			String browser = System.getenv("BROWSER");
 			System.out.println(browser);
 			if(browser==null)
 			{
@@ -93,13 +95,13 @@ public class BasePage extends variableEnvironments{
 		}
 		switch (browser) {
 		case "chrome":
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 			break;
 		case "firefox":
 			driver = new FirefoxDriver();
 			break;
 		default:
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 			break;
 		}
 		System.out.println("Opening Browser..................." + browser);
@@ -108,7 +110,7 @@ public class BasePage extends variableEnvironments{
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://www.saucedemo.com/");
+		driver.get(variableenvironments.url);
 		Assert.assertEquals("Swag Labs", driver.getTitle());
 	}
 	

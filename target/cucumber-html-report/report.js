@@ -78,11 +78,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 411600,
+  "duration": 258100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3763509600,
+  "duration": 7327824600,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,30 +127,30 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 699508600,
+  "duration": 579162800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 44511800,
+  "duration": 50337100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 543977800,
+  "duration": 541665300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 54700,
+  "duration": 52000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 119400,
+  "duration": 459200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2967458800,
+  "duration": 2844327300,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,30 +195,30 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 434547800,
+  "duration": 775440700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 36293400,
+  "duration": 37019500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 543921000,
+  "duration": 539393700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41000,
+  "duration": 149600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 32600,
+  "duration": 50300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2844066500,
+  "duration": 2840261000,
   "status": "passed"
 });
 formatter.scenario({
@@ -263,22 +263,22 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5502840400,
+  "duration": 5484233600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_home_page_and_check_for_products()"
 });
 formatter.result({
-  "duration": 238576000,
+  "duration": 53657300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 542095000,
+  "duration": 543561100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48700,
+  "duration": 45200,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -388,11 +388,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 43900,
+  "duration": 38100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2869727800,
+  "duration": 2884819700,
   "status": "passed"
 });
 formatter.scenario({
@@ -444,7 +444,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 316391600,
+  "duration": 283469100,
   "status": "passed"
 });
 formatter.match({
@@ -457,23 +457,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 51027000,
+  "duration": 48298000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 537426900,
+  "duration": 537832500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39100,
+  "duration": 85200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 34300,
+  "duration": 35800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1334055600,
+  "duration": 2904596200,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,7 +525,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 315882700,
+  "duration": 293449000,
   "status": "passed"
 });
 formatter.match({
@@ -538,23 +538,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 55415300,
+  "duration": 52668400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 549157800,
+  "duration": 557823900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45000,
+  "duration": 44200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 70900,
+  "duration": 46800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2934089600,
+  "duration": 2914788500,
   "status": "passed"
 });
 formatter.scenario({
@@ -606,7 +606,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 330034900,
+  "duration": 321223300,
   "status": "passed"
 });
 formatter.match({
@@ -619,23 +619,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 49778000,
+  "duration": 49297900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 536640000,
+  "duration": 535654900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 176700,
+  "duration": 46000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46400,
+  "duration": 74400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2879702300,
+  "duration": 2919012700,
   "status": "passed"
 });
 formatter.scenario({
@@ -687,7 +687,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 271444400,
+  "duration": 281836100,
   "status": "passed"
 });
 formatter.match({
@@ -700,23 +700,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 49071000,
+  "duration": 48000800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 535018500,
+  "duration": 536407800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43700,
+  "duration": 44500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79600,
+  "duration": 45500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2877546300,
+  "duration": 2917032000,
   "status": "passed"
 });
 formatter.scenario({
@@ -768,7 +768,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 238903200,
+  "duration": 242337400,
   "status": "passed"
 });
 formatter.match({
@@ -781,23 +781,23 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 50343100,
+  "duration": 50791100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 542868900,
+  "duration": 536403500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41800,
+  "duration": 40200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47200,
+  "duration": 41700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2895917200,
+  "duration": 2906324800,
   "status": "passed"
 });
 formatter.scenario({
@@ -849,7 +849,7 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 241341900,
+  "duration": 246057200,
   "status": "passed"
 });
 formatter.match({
@@ -862,15 +862,15 @@ formatter.match({
   "location": "SauceDemoStepDefinition.verify_error_message(String)"
 });
 formatter.result({
-  "duration": 46592200,
+  "duration": 47480900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 536257000,
+  "duration": 535774100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35400,
+  "duration": 40100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -942,11 +942,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 56300,
+  "duration": 44800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2840016000,
+  "duration": 2847027900,
   "status": "passed"
 });
 formatter.scenario({
@@ -996,37 +996,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 430589700,
+  "duration": 458499600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 39294700,
+  "duration": 45701900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
 });
 formatter.result({
-  "duration": 488785700,
+  "duration": 565914400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 543937800,
+  "duration": 548888300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 42100,
+  "duration": 43400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52600,
+  "duration": 45100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2863878300,
+  "duration": 2924039500,
   "status": "passed"
 });
 formatter.scenario({
@@ -1076,29 +1076,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5496365300,
+  "duration": 5494814900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 51905900,
+  "duration": 43040800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_products_on_home_page()"
 });
 formatter.result({
-  "duration": 490319800,
+  "duration": 510728100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 549325100,
+  "duration": 598984200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41900,
+  "duration": 42700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1216,11 +1216,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 35400,
+  "duration": 37900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1296510100,
+  "duration": 2986953800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1316,37 +1316,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 410333400,
+  "duration": 461047200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 41607800,
+  "duration": 40528000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
 });
 formatter.result({
-  "duration": 704545500,
+  "duration": 896103000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 544244200,
+  "duration": 578563900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 121800,
+  "duration": 47700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 73000,
+  "duration": 46100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2850887800,
+  "duration": 1525673800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1442,29 +1442,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5471992000,
+  "duration": 5530673900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 40080700,
+  "duration": 39459400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_can_sort_products(DataTable)"
 });
 formatter.result({
-  "duration": 690719500,
+  "duration": 522813700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 543170100,
+  "duration": 562687200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39000,
+  "duration": 44300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1540,11 +1540,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 73000,
+  "duration": 39100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1352370800,
+  "duration": 2832144200,
   "status": "passed"
 });
 formatter.scenario({
@@ -1598,37 +1598,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 447249300,
+  "duration": 559158700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 42314000,
+  "duration": 99932100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_all_items()"
 });
 formatter.result({
-  "duration": 454370200,
+  "duration": 328820300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 537006200,
+  "duration": 555578100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38300,
+  "duration": 41400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79800,
+  "duration": 45700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2830779300,
+  "duration": 2832977000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1682,29 +1682,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5467300300,
+  "duration": 5432990900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 40390000,
+  "duration": 50158900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_all_items()"
 });
 formatter.result({
-  "duration": 5463233900,
+  "duration": 5466358200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 540382000,
+  "duration": 547365800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 42900,
+  "duration": 39400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1780,11 +1780,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 499600,
+  "duration": 527900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2841792400,
+  "duration": 2827892000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1838,37 +1838,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 403898600,
+  "duration": 420658100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 42954800,
+  "duration": 38891700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_about()"
 });
 formatter.result({
-  "duration": 2533970800,
+  "duration": 2473945500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 544472300,
+  "duration": 561049400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 359100,
+  "duration": 450100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 43000,
+  "duration": 53900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2836342700,
+  "duration": 2951610900,
   "status": "passed"
 });
 formatter.scenario({
@@ -1922,29 +1922,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5458690000,
+  "duration": 5488561400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 45843700,
+  "duration": 43537600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_about()"
 });
 formatter.result({
-  "duration": 7714274600,
+  "duration": 7205335500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 552775200,
+  "duration": 564291900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 54100,
+  "duration": 54400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2020,11 +2020,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 40400,
+  "duration": 39600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2859631200,
+  "duration": 2878039800,
   "status": "passed"
 });
 formatter.scenario({
@@ -2078,37 +2078,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 650504700,
+  "duration": 418572300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 50212100,
+  "duration": 41853100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on__Reset_App_State()"
 });
 formatter.result({
-  "duration": 359733600,
+  "duration": 566477200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 540553900,
+  "duration": 541982200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35800,
+  "duration": 110800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 36700,
+  "duration": 42500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2843530200,
+  "duration": 2906325700,
   "status": "passed"
 });
 formatter.scenario({
@@ -2162,29 +2162,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5477436200,
+  "duration": 5456927000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 42470500,
+  "duration": 39941300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on__Reset_App_State()"
 });
 formatter.result({
-  "duration": 408733500,
+  "duration": 419745400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 550906200,
+  "duration": 559730100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35300,
+  "duration": 38900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2260,11 +2260,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 62300,
+  "duration": 38900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2883802700,
+  "duration": 2922532400,
   "status": "passed"
 });
 formatter.scenario({
@@ -2318,29 +2318,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 431986400,
+  "duration": 456230600,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 42470800,
+  "duration": 41816200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 396196500,
+  "duration": 427710300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 549453100,
+  "duration": 548946700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38400,
+  "duration": 40300,
   "status": "passed"
 });
 formatter.before({
@@ -2348,7 +2348,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.before({
-  "duration": 2871272100,
+  "duration": 2824099400,
   "status": "passed"
 });
 formatter.scenario({
@@ -2402,29 +2402,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5936928600,
+  "duration": 5591081300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 39077800,
+  "duration": 38752800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
 });
 formatter.result({
-  "duration": 399247400,
+  "duration": 467445300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 539183700,
+  "duration": 539210600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37900,
+  "duration": 56800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2526,11 +2526,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 67700,
+  "duration": 77700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2829178200,
+  "duration": 2852739600,
   "status": "passed"
 });
 formatter.scenario({
@@ -2610,37 +2610,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 600936600,
+  "duration": 410182400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 40775700,
+  "duration": 37623000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 659570600,
+  "duration": 776253900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 538570700,
+  "duration": 552712600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37800,
+  "duration": 39300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 41200,
+  "duration": 40300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2858539400,
+  "duration": 2860745200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2720,29 +2720,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5560037000,
+  "duration": 5457153400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 42602500,
+  "duration": 40471700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5634350700,
+  "duration": 5735734700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 558104300,
+  "duration": 558754600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38100,
+  "duration": 40500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2851,11 +2851,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 63200,
+  "duration": 41400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2863076900,
+  "duration": 2811095200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2942,44 +2942,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 538949000,
+  "duration": 405598800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 40065500,
+  "duration": 76121500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 452215000,
+  "duration": 546613300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_product_on_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 207714100,
+  "duration": 198873600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 541927800,
+  "duration": 542194300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39000,
+  "duration": 111300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40900,
+  "duration": 65000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2842237900,
+  "duration": 2820042100,
   "status": "passed"
 });
 formatter.scenario({
@@ -3066,36 +3066,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5534539500,
+  "duration": 5507367000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 47269900,
+  "duration": 53219300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5449163900,
+  "duration": 5476068700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_product_on_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 224584800,
+  "duration": 258109700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 610027700,
+  "duration": 540916600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 34300,
+  "duration": 43800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3215,11 +3215,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 67900,
+  "duration": 72200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2900409500,
+  "duration": 2824413500,
   "status": "passed"
 });
 formatter.scenario({
@@ -3317,37 +3317,37 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 455228000,
+  "duration": 418911800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 41373100,
+  "duration": 41986500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 2461019200,
+  "duration": 2334228200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 544703800,
+  "duration": 548109800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 134300,
+  "duration": 43700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 68300,
+  "duration": 45700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2875918900,
+  "duration": 2878791600,
   "status": "passed"
 });
 formatter.scenario({
@@ -3445,29 +3445,29 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5464599700,
+  "duration": 5464028500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 66908200,
+  "duration": 40732900,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 32961161500,
+  "duration": 33038831300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 558357800,
+  "duration": 539541800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 49700,
+  "duration": 49600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3588,11 +3588,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 45900,
+  "duration": 53700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2854150500,
+  "duration": 2826789900,
   "status": "passed"
 });
 formatter.scenario({
@@ -3691,44 +3691,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 427315900,
+  "duration": 519189700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 40639100,
+  "duration": 133428000,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 901365200,
+  "duration": 744357100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 678945500,
+  "duration": 721310000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 657174400,
+  "duration": 554667500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 60500,
+  "duration": 44300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 64500,
+  "duration": 46800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2909013200,
+  "duration": 3066924700,
   "status": "passed"
 });
 formatter.scenario({
@@ -3827,36 +3827,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5493939400,
+  "duration": 5517086300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 43661600,
+  "duration": 49406800,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_adds_product_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 10881098600,
+  "duration": 10966854300,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_product_details_page(DataTable)"
 });
 formatter.result({
-  "duration": 10746180100,
+  "duration": 10795118900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 540000400,
+  "duration": 540749100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43400,
+  "duration": 39700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -3965,11 +3965,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 38800,
+  "duration": 48000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2834326700,
+  "duration": 2827335500,
   "status": "passed"
 });
 formatter.scenario({
@@ -4056,44 +4056,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 435138700,
+  "duration": 411805100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 39687400,
+  "duration": 37428400,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 546574300,
+  "duration": 601261500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_cart(DataTable)"
 });
 formatter.result({
-  "duration": 284534000,
+  "duration": 282326100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 544904900,
+  "duration": 534839700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 115700,
+  "duration": 124600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 77200,
+  "duration": 69200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2839837700,
+  "duration": 2845481300,
   "status": "passed"
 });
 formatter.scenario({
@@ -4180,36 +4180,36 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5519148300,
+  "duration": 5457677500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 210827200,
+  "duration": 72230100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 5389823700,
+  "duration": 5529278500,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_removes_products_from_cart(DataTable)"
 });
 formatter.result({
-  "duration": 332547400,
+  "duration": 321120600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 539138300,
+  "duration": 549699900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 42700,
+  "duration": 41900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -4300,11 +4300,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 72500,
+  "duration": 46000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2844824500,
+  "duration": 2840498200,
   "status": "passed"
 });
 formatter.scenario({
@@ -4373,44 +4373,44 @@ formatter.match({
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 615706900,
+  "duration": 419752700,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
 });
 formatter.result({
-  "duration": 41794400,
+  "duration": 42038100,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
 });
 formatter.result({
-  "duration": 460228200,
+  "duration": 525528200,
   "status": "passed"
 });
 formatter.match({
   "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
 });
 formatter.result({
-  "duration": 362500500,
+  "duration": 317479800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 540348000,
+  "duration": 538036000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 46200,
+  "duration": 40700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71000,
+  "duration": 37500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2829301500,
+  "duration": 2827692700,
   "status": "passed"
 });
 formatter.scenario({
@@ -4477,2721 +4477,4 @@ formatter.match({
     }
   ],
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5486837600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 41797300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5499955300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
-});
-formatter.result({
-  "duration": 5399767600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 549968300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41600,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 226,
-      "value": "###Test Scenario 15"
-    }
-  ],
-  "line": 228,
-  "name": "checkout on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-on-cart-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 227,
-      "name": "@checkout"
-    },
-    {
-      "line": 227,
-      "name": "@test"
-    }
-  ]
-});
-formatter.step({
-  "line": 230,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 231,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 232,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 233
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 234
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 235,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 237,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 238,
-      "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 239,
-      "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 240,
-      "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 70600,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2876750400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 239,
-  "name": "checkout on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 227,
-      "name": "@checkout"
-    },
-    {
-      "line": 227,
-      "name": "@test"
-    }
-  ]
-});
-formatter.step({
-  "line": 230,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 231,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 232,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 233
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 234
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 235,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 417347500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 43539100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 582481300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 310819200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 549671400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 44400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2839233600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 240,
-  "name": "checkout on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-on-cart-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 227,
-      "name": "@checkout"
-    },
-    {
-      "line": 227,
-      "name": "@test"
-    }
-  ]
-});
-formatter.step({
-  "line": 230,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 231,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 232,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 233
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 234
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 235,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5484748000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 68860100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5463194000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 359795000,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 539522400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41300,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 242,
-      "value": "###Test Scenario 16"
-    }
-  ],
-  "line": 244,
-  "name": "checkout without product on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 243,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 246,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 247,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 248,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 250,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 251,
-      "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 252,
-      "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 253,
-      "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 45800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2874554400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 252,
-  "name": "checkout without product on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 243,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 246,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 247,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 248,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 618281500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 42841200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 289579800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 539106400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 38900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 42000,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2855425500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 253,
-  "name": "checkout without product on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-product-on-cart-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 243,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 246,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 247,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 248,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5478671900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 41724000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 331785600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 539689900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41500,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 255,
-      "value": "###Test Scenario 17"
-    }
-  ],
-  "line": 257,
-  "name": "Checkout without buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 256,
-      "name": "@negativescenario"
-    },
-    {
-      "line": 256,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 259,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 260,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 261,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 262
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 263
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 264,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 265,
-  "name": "user tries to checkout product from cart without buyer data",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 267,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 268,
-      "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 269,
-      "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 270,
-      "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 45400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2920448400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 269,
-  "name": "Checkout without buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 256,
-      "name": "@checkout"
-    },
-    {
-      "line": 256,
-      "name": "@negativescenario"
-    }
-  ]
-});
-formatter.step({
-  "line": 259,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 260,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 261,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 262
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 263
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 264,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 265,
-  "name": "user tries to checkout product from cart without buyer data",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 544748900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 44679900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 392874100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 411967000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
-});
-formatter.result({
-  "duration": 442987700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 543326300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 46700,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2855344800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 270,
-  "name": "Checkout without buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-without-buyer-data-on-cart-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 256,
-      "name": "@checkout"
-    },
-    {
-      "line": 256,
-      "name": "@negativescenario"
-    }
-  ]
-});
-formatter.step({
-  "line": 259,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 260,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 261,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 262
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 263
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 264,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 265,
-  "name": "user tries to checkout product from cart without buyer data",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5481418700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 39946200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5502145100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 360056100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_tries_to_checkout_product_from_cart_without_buyer_data()"
-});
-formatter.result({
-  "duration": 437469700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 574609800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 41200,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 272,
-      "value": "###Test Scenario 18"
-    }
-  ],
-  "line": 274,
-  "name": "Cancel Checkout process on Your Information Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 273,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 276,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 277,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 278,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 279
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 280
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 281,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 282,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 284,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 285,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 286,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 287,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 43200,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1356901600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 286,
-  "name": "Cancel Checkout process on Your Information Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 273,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 276,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 277,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 278,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 279
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 280
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 281,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 282,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 401505400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 248134400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 437941500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 318490700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
-});
-formatter.result({
-  "duration": 82083200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 541249600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 39100,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 42800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2880242600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 287,
-  "name": "Cancel Checkout process on Your Information Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-your-information-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 273,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 276,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 277,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 278,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 279
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 280
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 281,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 282,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5543673800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 38803800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5453757900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 365112300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
-});
-formatter.result({
-  "duration": 82545800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 537599100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 39900,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 289,
-      "value": "###Test Scenario 19"
-    }
-  ],
-  "line": 291,
-  "name": "Checkout with buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 290,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 293,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 294,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 295,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 296
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 297
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 298,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 299,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 301,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 302,
-      "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 303,
-      "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 304,
-      "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 41500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2886952800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 303,
-  "name": "Checkout with buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 290,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 293,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 294,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 295,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 296
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 297
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 298,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 299,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 409089300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 40870400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 479214400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 367112900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 396911800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 543035500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 95800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 61900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2860331000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 304,
-  "name": "Checkout with buyer data on Cart Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;checkout-with-buyer-data-on-cart-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 290,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 293,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 294,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 295,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 296
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 297
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 298,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 299,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5490713200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 48388800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5498760900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 360800900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 487298600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 537958600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 39200,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 306,
-      "value": "###Test Scenario 20"
-    }
-  ],
-  "line": 308,
-  "name": "Cancel Checkout process on Overview Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 307,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 310,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 311,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 312,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 313
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 314
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 315,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 316,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 317,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 319,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 320,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 321,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 322,
-      "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 61000,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2883606700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 321,
-  "name": "Cancel Checkout process on Overview Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 307,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 310,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 311,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 312,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 313
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 314
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 315,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 316,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 317,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 434478200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 41796000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 471203200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 357337600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 400989900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
-});
-formatter.result({
-  "duration": 95942400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 541622300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 39000,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 74500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2867427000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 322,
-  "name": "Cancel Checkout process on Overview Page",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;cancel-checkout-process-on-overview-page;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 307,
-      "name": "@checkout"
-    }
-  ]
-});
-formatter.step({
-  "line": 310,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 311,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 312,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 313
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 314
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 315,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 316,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 317,
-  "name": "user cancels checkout process",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5462714600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 51681400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 5572215900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 355975700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 412144200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_cancels_checkout_process()"
-});
-formatter.result({
-  "duration": 5136186800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 545988400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 42000,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 324,
-      "value": "###Test Scenario 21"
-    }
-  ],
-  "line": 326,
-  "name": "Finish Checkout process without product",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 325,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 328,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 329,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 330,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 331,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 332,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 333,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 335,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 336,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 337,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 338,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 70500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2876417700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 337,
-  "name": "Finish Checkout process without product",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 325,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 328,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 329,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 330,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 331,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 332,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 333,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 414442300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 39668900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 405103000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 414524100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
-});
-formatter.result({
-  "duration": 155008900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
-});
-formatter.result({
-  "duration": 223904600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 540479400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 94500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 60300,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2860396800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 338,
-  "name": "Finish Checkout process without product",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-without-product;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 325,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 328,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 329,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 330,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 331,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 332,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 333,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5456073900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 222792100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 198843200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 391563700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
-});
-formatter.result({
-  "duration": 156341200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
-});
-formatter.result({
-  "duration": 199738700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 541451500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 38300,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 340,
-      "value": "###Test Scenario 22"
-    }
-  ],
-  "line": 342,
-  "name": "Finish Checkout process with products",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 341,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 344,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" and clicks on login button",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 345,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 346,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 347
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 348
-    },
-    {
-      "cells": [
-        "Sauce Labs Bike Light"
-      ],
-      "line": 349
-    },
-    {
-      "cells": [
-        "Sauce Labs Bolt T-Shirt"
-      ],
-      "line": 350
-    },
-    {
-      "cells": [
-        "Sauce Labs Fleece Jacket"
-      ],
-      "line": 351
-    },
-    {
-      "cells": [
-        "Sauce Labs Onesie"
-      ],
-      "line": 352
-    },
-    {
-      "cells": [
-        "Test.allTheThings() T-Shirt (Red)"
-      ],
-      "line": 353
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 354,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 355,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 356,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 357,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 359,
-  "name": "",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 360,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;;1"
-    },
-    {
-      "cells": [
-        "standard_user",
-        "secret_sauce"
-      ],
-      "line": 361,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;;2"
-    },
-    {
-      "cells": [
-        "performance_glitch_user",
-        "secret_sauce"
-      ],
-      "line": 362,
-      "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 60900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2880771800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 361,
-  "name": "Finish Checkout process with products",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 341,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 344,
-  "name": "user enters \"standard_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 345,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 346,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 347
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 348
-    },
-    {
-      "cells": [
-        "Sauce Labs Bike Light"
-      ],
-      "line": 349
-    },
-    {
-      "cells": [
-        "Sauce Labs Bolt T-Shirt"
-      ],
-      "line": 350
-    },
-    {
-      "cells": [
-        "Sauce Labs Fleece Jacket"
-      ],
-      "line": 351
-    },
-    {
-      "cells": [
-        "Sauce Labs Onesie"
-      ],
-      "line": 352
-    },
-    {
-      "cells": [
-        "Test.allTheThings() T-Shirt (Red)"
-      ],
-      "line": 353
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 354,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 355,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 356,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 357,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "standard_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 33
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 537456200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 46509100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 1108735700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 281409700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 408785300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
-});
-formatter.result({
-  "duration": 148292100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
-});
-formatter.result({
-  "duration": 245486500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 601747900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 105100,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 64000,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2916347400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 362,
-  "name": "Finish Checkout process with products",
-  "description": "",
-  "id": "sauce-demo-application-testing-feature;finish-checkout-process-with-products;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 341,
-      "name": "@e2e"
-    }
-  ]
-});
-formatter.step({
-  "line": 344,
-  "name": "user enters \"performance_glitch_user\" and \"secret_sauce\" and clicks on login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 345,
-  "name": "user is on swag labs home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 346,
-  "name": "user adds product from home page",
-  "rows": [
-    {
-      "cells": [
-        "productname"
-      ],
-      "line": 347
-    },
-    {
-      "cells": [
-        "Sauce Labs Backpack"
-      ],
-      "line": 348
-    },
-    {
-      "cells": [
-        "Sauce Labs Bike Light"
-      ],
-      "line": 349
-    },
-    {
-      "cells": [
-        "Sauce Labs Bolt T-Shirt"
-      ],
-      "line": 350
-    },
-    {
-      "cells": [
-        "Sauce Labs Fleece Jacket"
-      ],
-      "line": 351
-    },
-    {
-      "cells": [
-        "Sauce Labs Onesie"
-      ],
-      "line": 352
-    },
-    {
-      "cells": [
-        "Test.allTheThings() T-Shirt (Red)"
-      ],
-      "line": 353
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 354,
-  "name": "user checkout product from cart",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 355,
-  "name": "user continue checkout with buyer data",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 356,
-  "name": "user finish checkout process",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 357,
-  "name": "user clicks on logout",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "performance_glitch_user",
-      "offset": 13
-    },
-    {
-      "val": "secret_sauce",
-      "offset": 43
-    }
-  ],
-  "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 5514522400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
-});
-formatter.result({
-  "duration": 41917200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
-});
-formatter.result({
-  "duration": 6099504600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_checkout_product_from_cart()"
-});
-formatter.result({
-  "duration": 382410100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_continue_checkout_with_buyer_data()"
-});
-formatter.result({
-  "duration": 419804300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_finish_checkout_process()"
-});
-formatter.result({
-  "duration": 145572500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SauceDemoStepDefinition.user_clicks_on_logout()"
-});
-formatter.result({
-  "duration": 211430100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 540142200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 36600,
-  "status": "passed"
-});
 });

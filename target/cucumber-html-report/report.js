@@ -4478,3 +4478,24 @@ formatter.match({
   ],
   "location": "SauceDemoStepDefinition.user_enters_username_and_password(String,String)"
 });
+formatter.result({
+  "duration": 5461086900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SauceDemoStepDefinition.user_is_on_swag_labs_home_page_()"
+});
+formatter.result({
+  "duration": 36336800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SauceDemoStepDefinition.verify_user_adds_product_from_home_page(DataTable)"
+});
+formatter.result({
+  "duration": 5416657500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SauceDemoStepDefinition.user_continue_shopping_from_cart()"
+});
